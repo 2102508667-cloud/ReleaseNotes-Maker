@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "MERN stack release notes organizer",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
     "server": "cd server && npm run dev",
     "client": "cd client && npm run dev",
     "install-all": "cd server && npm install && cd ../client && npm install"
   },
   "dependencies": {
-    "mongoosh": "^0.0.7"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.9.2"
   }
 }
