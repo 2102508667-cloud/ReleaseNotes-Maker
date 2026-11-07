@@ -1,0 +1,49 @@
+.generate-page {
+  animation: pageIn 0.3s ease;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-header-simple {
+  margin-bottom: 28px;
+}
+
+.page-header-simple .page-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.page-header-simple .page-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.preview-section {
+  margin-top: 12px;
+}
+
+.preview-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.preview-divider::before,
+.preview-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--border);
+}
+
+.divider-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
